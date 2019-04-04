@@ -1,12 +1,11 @@
 
 console.log ("The numbers are :")
-for (var i=1; i<=11; i++){
-    console.log(i)
-}
+
 var sum =0;
 var num =1;
 while(num <=11)
 {
+    console.log(num);
     sum=sum+num;
     num++;
 }
